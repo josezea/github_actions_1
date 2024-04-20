@@ -3,7 +3,8 @@ on:
     branches: main
 
 jobs:
-  import-data:
+  job-name:
+   import-data:
     runs-on: ubuntu-latest
     steps:
       - name: Set up R

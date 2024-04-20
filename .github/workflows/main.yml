@@ -3,6 +3,9 @@ on:
     branches: main
 
 jobs:
+  job-name:
+    permissions:
+      contents: write
   import-data:
     runs-on: ubuntu-latest
     steps:
